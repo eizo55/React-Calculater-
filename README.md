@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+🧮 ReactCalc - Your Sleek React Calculator! 🧮
+A clean, responsive calculator built with React. perfect for quick math, stylish design, and a smooth user experience. Built to demonstrate functional React components and efficient state handling.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+🚀 Features
+✅ Basic Operations – Add, subtract, multiply, divide with ease
+✅ Clear UI – Minimalist design with intuitive button layout
+✅ Responsive Design – Looks great on mobile & desktop
+✅ Fast & Lightweight – Powered by Vite for instant load times
+✅ Keyboard Support – Operate with keyboard or mouse
 
-In the project directory, you can run:
+📸 Screenshot
 
-### `npm start`
+![Screenshot 2025-07-03 211550](https://github.com/user-attachments/assets/f52c6758-4830-4770-a1e9-2e513662a0eb)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📱 Mobile View
+(Insert Mobile Screenshot)
 
-### `npm test`
+🛠️ Installation & Setup
+To run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1️⃣ Clone the repository
 
-### `npm run build`
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/ReactCalc.git
+cd ReactCalc
+2️⃣ Install dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy
+Edit
+npm install
+3️⃣ Start the development server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy
+Edit
+npm run dev
+Then open http://localhost:5173 in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📁 Project Structure
 
-### `npm run eject`
+csharp
+Copy
+Edit
+📁 ReactCalc
+ ┣ 📁 public/         # Static assets
+ ┣ 📁 src/            
+ ┃ ┣ 📁 components/   # Calculator components
+ ┃ ┣ 📄 App.jsx       # Main App component
+ ┃ ┗ 📄 main.jsx      # React entry point
+ ┣ 📄 index.html      # Root HTML file
+ ┣ 📄 package.json    # Dependencies and scripts
+ ┣ 📄 vite.config.js  # Vite configuration
+ ┗ 📄 README.md       # Project documentation
+🧰 Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Frontend: React, Vite
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deployment: GitHub Pages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Package Manager: npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+📄 License
+This project is licensed under the MIT License. Feel free to use and customize it for your own projects.
 
-## Learn More
+💡 Built with passion and precision — enjoy calculating! 🧠💻
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
